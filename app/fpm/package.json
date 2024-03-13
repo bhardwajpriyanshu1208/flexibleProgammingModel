@@ -1,5 +1,5 @@
 {
-    "name": "priyanshuflp",
+    "name": "fpm",
     "version": "0.0.1",
     "description": "An SAP Fiori application.",
     "keywords": [
@@ -11,7 +11,5 @@
     "scripts": {
         "deploy-config": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf"
     },
-    "devDependencies": {
-        "@sap/ux-specification": "^1.120.5"
-    }
+    "devDependencies": { }
 }

@@ -1,24 +1,24 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Mar 06 2024 10:50:07 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Fri Mar 08 2024 03:12:45 GMT+0530 (India Standard Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
-|**App Generator Version**<br>1.12.5|
-|**Generation Platform**<br>SAP Business Application Studio|
+|**App Generator Version**<br>1.12.2|
+|**Generation Platform**<br>Visual Studio Code|
 |**Template Used**<br>Custom Page V4|
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/processor/
-|**Module Name**<br>priyanshuflp|
+|**Module Name**<br>fpm|
 |**Application Title**<br>Travel|
-|**Namespace**<br>com.flp|
+|**Namespace**<br>scm.nxt.fpm|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.121.1|
-|**Enable Code Assist Libraries**<br>True|
+|**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
 |**Main Entity**<br>Travel|
 
-## priyanshuflp
+## fpm
 
 An SAP Fiori application.
 
@@ -26,7 +26,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply start your CAP project and navigate to the following location in your browser:
 
-http://localhost:4004/priyanshuflp/webapp/index.html
+http://localhost:4004/fpm/webapp/index.html
 
 #### Pre-requisites:
 

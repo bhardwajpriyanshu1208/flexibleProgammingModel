@@ -30,7 +30,8 @@
     "start": "cds run",
     "test": "jest --runInBand",
     "watch-anubhavflexapp": "cds watch --open anubhavflexapp/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-priyanshuflp": "cds watch --open priyanshuflp/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-priyanshuflp": "cds watch --open priyanshuflp/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-fpm": "cds watch --open fpm/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
@@ -90,6 +91,7 @@
   "private": true,
   "sapux": [
     "app/anubhavflexapp",
-    "app/priyanshuflp"
+    "app/priyanshuflp",
+    "app/fpm"
   ]
 }

@@ -7,7 +7,7 @@ sap.ui.define(['sap/fe/test/TemplatePage'], function(TemplatePage) {
     };
 
     return new TemplatePage(
-        'com.flp.priyanshuflp::TravelMain',
+        'scm.nxt.fpm.fpm::TravelMain',
         CustomPageDefinitions
     );
 });

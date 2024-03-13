@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "com.flp.priyanshuflp",
+    "id": "scm.nxt.fpm.fpm",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -12,8 +12,8 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:fpm",
-      "version": "1.12.5",
-      "toolsId": "4b8e018e-a513-4ce2-b564-1b68ad706e41"
+      "version": "1.12.2",
+      "toolsId": "976a7392-1243-457a-b2df-066d1f93464e"
     },
     "dataSources": {
       "mainService": {
@@ -27,9 +27,9 @@
     },
     "crossNavigation": {
       "inbounds": {
-        "flptravel-manage": {
-          "semanticObject": "flptravel",
-          "action": "manage",
+        "flp-practice": {
+          "semanticObject": "flp",
+          "action": "practice",
           "title": "{{flpTitle}}",
           "signature": {
             "parameters": {},
@@ -74,7 +74,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "com.flp.priyanshuflp.i18n.i18n"
+          "bundleName": "scm.nxt.fpm.fpm.i18n.i18n"
         }
       },
       "": {
@@ -101,6 +101,11 @@
           "name": "TravelMain",
           "pattern": ":?query:",
           "target": "TravelMain"
+        },
+        {
+          "name": "TravelObjectPage",
+          "pattern": "Travel({TravelKey}):?query:",
+          "target": "TravelObjectPage"
         }
       ],
       "targets": {
@@ -110,7 +115,25 @@
           "name": "sap.fe.core.fpm",
           "options": {
             "settings": {
-              "viewName": "com.flp.priyanshuflp.ext.main.Main",
+              "viewName": "scm.nxt.fpm.fpm.ext.main.Main",
+              "contextPath": "/Travel",
+              "navigation": {
+                "Travel": {
+                  "detail": {
+                    "route": "TravelObjectPage"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "TravelObjectPage": {
+          "type": "Component",
+          "id": "TravelObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
               "contextPath": "/Travel"
             }
           }
