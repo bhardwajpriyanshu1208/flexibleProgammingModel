@@ -246,10 +246,9 @@ annotate service.Booking with @(
     }
 );
 
-annotate service.BookedFlights with @(UI.Chart #BookingsChart: {
+annotate service.BookedFlights with @(UI.Chart #BookedFlights: {
     $Type              : 'UI.ChartDefinitionType',
-    Description        : 'Flights Booked by CustomerID',
-    Title              : 'Flights Booked by CustomerID',
+    Title              : 'Bookings by AirlineId',
     ChartType          : #Column,
     Dimensions         : [
         to_Customer_CustomerID,
